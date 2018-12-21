@@ -8,6 +8,8 @@ I took the theme [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus) and removed ma
 git clone -b gh-pages `git config remote.origin.url` _site
 ```
 
+## Post Ideas
+
 ## To Do
 
 - Maybe underline `home` and `tags` on hover
