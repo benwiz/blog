@@ -87,8 +87,28 @@ To ensure the installation worked correctly, open any example app in Xcode. To o
 open examples/3d/3DPrimitivesExample/3DPrimitivesExample.xcodeproj/
 ```
 
+Press `cmd + r` or click the play button to build and run the app.
+
 ## Step 6: Test a third-party app
 
 For me, the real test is to confirm one of my own openFrameworks applications will run.
 
-TODO
+First, create and enter a directory to store your own apps.
+
+```sh
+mkdir apps/myApps && cd apps/myApps/
+```
+
+Second, clone an openFrameworks project. This project is a music visualizer I am in the middle of working on.
+
+```sh
+git clone git@github.com:benwiz/ofNetAudioVisuals.git && cd ofNetAudioVisuals/
+```
+
+Third, open the project.
+
+```sh
+open netAudioVisual.xcodeproj/
+```
+
+Lastly, run the project. This particular project needs [Soundflower](https://rogueamoeba.com/freebies/soundflower/) to work properly.
