@@ -10,5 +10,7 @@ git clone -b gh-pages `git config remote.origin.url` _site
 
 ## To Do
 
+- Make disqus work
+
 - Only include google analytics if deployed to production
 - Set url based on development or production
