@@ -6,4 +6,4 @@ tags: [openFrameworks, install, mac]
 ads: true
 ---
 
-I will soon describe the steps to install openFrameworks C++ creative coding software on a Mac.
+I will soon describe the steps to install [openFrameworks](https://openframeworks.cc/) C++ creative coding software on a Mac.
