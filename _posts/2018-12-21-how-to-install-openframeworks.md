@@ -8,10 +8,67 @@ ads: true
 
 [openFrameworks](https://openframeworks.cc/) is C++ toolkit for createive coding.
 
-## Step 1: Install Xcode and command line tools
+# Summary
+
+- Clone openFrameworks from its GitHup repo
+- Download and extract _projectGenerator_ from the official release
+
+## Step 1: Install Dependencies: Xcode, command line tools, and wget
 
 Download Xcode from the [app store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). Then, install Xcode's command line tools with the following command.
 
 ```sh
 xcode-select --install
 ```
+
+If you do not already have [Homebrew](https://brew.sh), install it.
+
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Install `wget` using Homebrew.
+
+```sh
+brew install wget
+```
+
+## Step 2: Clone the openFrameworks repo
+
+Clone the master branch.
+
+```sh
+git clone --recursive git@github.com:openframeworks/openFrameworks.git && cd openFrameworks
+```
+
+Download external dependencies.
+
+```sh
+/bin/bash scripts/osx/download_libs.sh
+```
+
+## Step 3: Acquire the _projectGenerator_ app
+
+Download the official release of openFrameworks by visiting the [download page](https://openframeworks.cc/download/) or [download v0.10.1 directly](https://openframeworks.cc/versions/v0.10.1/of_v0.10.1_osx_release.zip).
+
+Move _projectGenerator_ directory into the clone repository.
+
+```sh
+mv ~/Downloads/of_v0.10.1_osx_release/projectGenerator/ .
+```
+
+## Step 4: Compile all the example apps
+
+Open the _projectGenerator_ app.
+
+```sh
+open projectGenerator/projectGenerator.app/
+```
+
+1. Enter the path to your openFrameworks directory. For me, the path is `/Users/benwiz/code/openFrameworks`.
+2. Press _enter_.
+3. Check the _Advanced options_ box.
+4. Click the new tab that appears at the top named _update multiple_.
+5. Enter the full path to the _examples_ directory into the _Update Path_ field. For me, the path is `/Users/benwiz/code/openFrameworks/examples`.
+6. Ensure that _OS X (Xcode)_ is selected for the platform.
+7. Click the _Update Multiple_ button and wait. There is no visual feedback until a success message appears.
