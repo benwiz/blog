@@ -57,6 +57,12 @@ Move _projectGenerator_ directory into the clone repository.
 mv ~/Downloads/of_v0.10.1_osx_release/projectGenerator/ .
 ```
 
+You may now delete the downloaded release directory and zip.
+
+```sh
+rm -r ~/Downloads/of_v0.10.1_osx_release*
+```
+
 ## Step 4: Compile all the example apps
 
 Open the _projectGenerator_ app.
