@@ -6,42 +6,31 @@
 name:               "Kiko Plus"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
-  github:           your-id
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  github:           benwiz
+  linkedin:         benwiz
+  instagram:        _benwiz
+  medium:           benwiz
+  email:            bwisialowski@gmail.com
 
 copyright:
-  year:             2017
-  name:             Kiko
+  year:             2018
+  name:             Ben Wisialowski
 
 # Google-analytics
 google-analytics:
-  id:               ""
+  id:               "" # UA-131129805-1
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "benwiz37"
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
-
+# url:                "https://benwiz.io"
+url:                "http://localhost:4000" # development url
+baseurl:            "/blog"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           America/Los_Angeles
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
@@ -71,14 +60,12 @@ sass:
 
 # Scopes
 defaults:
-  -
-    scope:
+  - scope:
       path:         ""
       type:         "pages"
     values:
       layout:       "page"
-  -
-    scope:
+  - scope:
       path:         ""
       type:         "posts"
     values:
