@@ -18,7 +18,8 @@
 
   {% include google-analytics.html %}
 
-  {% if page.show_ads %}
+  show ads? {{ page.ads }} <br>
+  {% if page.ads %}
     {% include google-adsense.html %}
   {% endif %}
 

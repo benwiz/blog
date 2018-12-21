@@ -3,7 +3,7 @@ layout: post
 title: "Syntax Highlighting Post"
 date: 2013-08-16
 tags: [sample post, code, highlighting]
-comments: true
+ads: true
 ---
 
 
