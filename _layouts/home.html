@@ -6,7 +6,7 @@ hey this is home
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}: {{ post.url }}</a>
     </li>
   {% endfor %}
 </ul>
