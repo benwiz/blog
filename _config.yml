@@ -1,0 +1,45 @@
+title: Ben Wiz's Documentation Blog
+description: Blog to contain some notes I expect to find useful in the future
+author: Ben Wiz
+home: https://benwiz.io
+github: https://github.com/benwiz
+about: Software developer traveling while scuba diving, coding generative art, and learning Spanish.
+disqus_shortname: benwiz
+google_analytics: UA-131129805-1
+avatar_url: /static/img/me.png
+
+enableTags: true
+tagarray: []
+
+collections:
+
+social:
+  - icon: fa-home
+    link: https://benwiz.io
+  - icon: fa-linkedin
+    link: "https://www.linkedin.com/in/benwiz"
+  - icon: fa-github
+    link: "https://github.com/benwiz"
+
+urls:
+  - text: Categories
+    url: category/all
+  - text: XML Feed
+    url: feed.xml
+
+url: "https://benwiz.io/blog"
+baseurl: ""
+paginate: 20
+per_page: 100
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
