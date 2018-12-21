@@ -14,3 +14,5 @@ git clone -b gh-pages `git config remote.origin.url` _site
 
 - Only include google analytics if deployed to production
 - Set url based on development or production
+
+- Build my own comment system using S3
