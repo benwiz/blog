@@ -1,0 +1,27 @@
+title: "Ben Wiz: Blog"
+email: bwisialowski@gmail.com
+description: >-
+  Description goes here. Newlines are
+  acceptable and not considered.
+baseurl: "/blog" 
+url: "https://benwiz.io"
+github_username: benwiz
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  topics:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
