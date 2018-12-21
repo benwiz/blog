@@ -6,7 +6,7 @@ tags: [openFrameworks, install, mac]
 ads: true
 ---
 
-[openFrameworks](https://openframeworks.cc/) is C++ toolkit for createive coding.
+[openFrameworks](https://openframeworks.cc/) is C++ toolkit for creative coding.
 
 # Summary
 
