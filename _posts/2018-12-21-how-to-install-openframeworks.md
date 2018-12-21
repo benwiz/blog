@@ -5,8 +5,7 @@ date: 2018-12-21
 tags: [openFrameworks, install, mac]
 ads: true
 ---
-
-[openFrameworks](https://openframeworks.cc/) is C++ toolkit for creative coding.
+[openFrameworks](https://openframeworks.cc/) is C++ toolkit for creative coding. This is a guide and tutorial for installing it on maxOS High Sierra.
 
 # Summary
 
