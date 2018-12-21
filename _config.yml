@@ -16,10 +16,6 @@ copyright:
 google-analytics:
   id:               "UA-131129805-1"
 
-# Disqus
-disqus:
-  id:               "benwiz"
-
 # URL
 url:                "https://benwiz.io"
 # url:                "http://localhost:4000" # development url
