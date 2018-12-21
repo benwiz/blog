@@ -12,6 +12,7 @@ ads: true
 
 - Clone openFrameworks from its GitHup repo
 - Download and extract _projectGenerator_ from the official release
+- Test openFrameworks to make sure it works
 
 ## Step 1: Install Dependencies - Xcode, command line tools, and wget
 
