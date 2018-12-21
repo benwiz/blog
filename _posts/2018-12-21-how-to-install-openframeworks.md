@@ -13,7 +13,7 @@ ads: true
 - Clone openFrameworks from its GitHup repo
 - Download and extract _projectGenerator_ from the official release
 
-## Step 1: Install Dependencies: Xcode, command line tools, and wget
+## Step 1: Install Dependencies - Xcode, command line tools, and wget
 
 Download Xcode from the [app store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). Then, install Xcode's command line tools with the following command.
 
@@ -71,4 +71,14 @@ open projectGenerator/projectGenerator.app/
 4. Click the new tab that appears at the top named _update multiple_.
 5. Enter the full path to the _examples_ directory into the _Update Path_ field. For me, the path is `/Users/benwiz/code/openFrameworks/examples`.
 6. Ensure that _OS X (Xcode)_ is selected for the platform.
-7. Click the _Update Multiple_ button and wait. There is no visual feedback until a success message appears.
+7. Click the _Update Multiple_ button and wait for several minutes. There is no visual feedback until a success message appears.
+
+## Step 5: Test an example app
+
+TODO
+
+## Step 6: Test a third-party app
+
+For me, the real test is to confirm one of my own openFrameworks applications will run.
+
+TODO
