@@ -27,7 +27,7 @@ baseurl:            "/blog"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           America/Los_Angeles
-permalink:          /:year-:month-:day/:title/
+permalink:          /:year/:month/:day/:title/
 
 # Pagination
 paginate:           5

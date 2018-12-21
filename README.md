@@ -4,7 +4,6 @@ I took the theme [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus) and removed ma
 
 ## To Do
 
-- Include tag in main list
 - URL path should the YYYY/MM/DD not yyyy-mm-dd
 
 - Delete all unused code
