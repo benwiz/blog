@@ -1,9 +1,0 @@
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/navigation.css">
-
-<nav>
-  {% for item in site.data.navigation %}
-    {% if item.link == page.url %}
-      <a href="{{ item.link }}">{{ item.name }}</a>
-    {% endif %}
-  {% endfor %}
-</nav>

@@ -1,7 +1,11 @@
-{% include navigation.html %}
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  <div class="content-container">
+    {{ content }}
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css">
-
-<div id="container">
-  {{ content }}
-</div>
+    {% include footer.html %}
+  </div>
+</body>
+</html>
