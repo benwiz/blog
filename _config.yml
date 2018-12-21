@@ -14,7 +14,7 @@ copyright:
 
 # Google-analytics
 google-analytics:
-  id:               "" # UA-131129805-1
+  id:               "UA-131129805-1"
 
 # Disqus
 disqus:
