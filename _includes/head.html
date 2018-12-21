@@ -17,6 +17,9 @@
 
 
   {% include google-analytics.html %}
-  {% include google-adsense.html %}
+
+  {% if page.show_ads %}
+    {% include google-adsense.html %}
+  {% endif %}
 
 </head>
