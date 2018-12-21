@@ -71,11 +71,15 @@ open projectGenerator/projectGenerator.app/
 4. Click the new tab that appears at the top named _update multiple_.
 5. Enter the full path to the _examples_ directory into the _Update Path_ field. For me, the path is `/Users/benwiz/code/openFrameworks/examples`.
 6. Ensure that _OS X (Xcode)_ is selected for the platform.
-7. Click the _Update Multiple_ button and wait for several minutes. There is no visual feedback until a success message appears.
+7. Click the _Update Multiple_ button and wait for several minutes. It took my Macbook Air about 15 minutes. There is no visual feedback until a success message appears.
 
 ## Step 5: Test an example app
 
-TODO
+To ensure the installation worked correctly, open any example app in Xcode. To open _3DPrimitivesExample_ run the following command.
+
+```sh
+open examples/3d/3DPrimitivesExample/3DPrimitivesExample.xcodeproj/
+```
 
 ## Step 6: Test a third-party app
 
