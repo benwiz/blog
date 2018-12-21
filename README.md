@@ -10,6 +10,10 @@ git clone -b gh-pages `git config remote.origin.url` _site
 
 ## Post Ideas
 
+- Why I chose Jekyll over WordPress or Medium
+- How I set up my Jekyll blog using a custom domain with AWS Route 53
+- My architecture for music visualizers (the packet queuing method)
+
 ## To Do
 
 - Maybe underline `home` and `tags` on hover
