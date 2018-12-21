@@ -99,16 +99,16 @@ First, create and enter a directory to store your own apps.
 mkdir apps/myApps && cd apps/myApps/
 ```
 
-Second, clone an openFrameworks project. This project is a music visualizer I am in the middle of working on.
+Second, clone an openFrameworks project.
 
 ```sh
-git clone git@github.com:benwiz/ofNetAudioVisuals.git && cd ofNetAudioVisuals/
+git clone git@github.com:benwiz/ofSprinkles.git && cd ofSprinkles/ && git checkout 2d
 ```
 
 Third, open the project.
 
 ```sh
-open netAudioVisual.xcodeproj/
+open sprinkles.xcodeproj/
 ```
 
-Lastly, run the project. This particular project needs [Soundflower](https://rogueamoeba.com/freebies/soundflower/) to work properly.
+Lastly, run the project.
