@@ -6,4 +6,12 @@ tags: [openFrameworks, install, mac]
 ads: true
 ---
 
-I will soon describe the steps to install [openFrameworks](https://openframeworks.cc/) C++ creative coding software on a Mac.
+[openFrameworks](https://openframeworks.cc/) is C++ toolkit for createive coding.
+
+## Step 1: Install Xcode and command line tools
+
+Download Xcode from the [app store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). Then, install Xcode's command line tools with the following command.
+
+```sh
+xcode-select --install
+```
