@@ -9,7 +9,7 @@ This is a guide and tutorial for installing [openFrameworks](https://openframewo
 
 # Summary
 
-- Clone openFrameworks from its GitHup repo
+- Clone openFrameworks from its GitHub repo
 - Download and extract _projectGenerator_ from the official release
 - Test openFrameworks to make sure it works
 
