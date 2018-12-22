@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Install openFrameworks on a Mac (macOS High Sierra)
+title: How to install openFrameworks on a Mac (macOS High Sierra)
 date: 2018-12-21
 tags: [openFrameworks, install, mac]
 ads: true
