@@ -89,7 +89,7 @@ Visit http://your-github-username.github.io and https://your-github-username.git
 
 ## Step 6: Confirm that your page is accessible at your custom domain
 
-1. Visit https://your-custom-domain.com. You should see the contents of your _index.html_. 
-2. Visit https://www.your-custom-domain.com. You should be redirected to https://your-custom-domain.com.
-3. Visit http://your-custom-domain.com. You should be redirected to https://your-custom-domain.com.
-4. Visit http://www.your-custom-domain.com. You should be redirected to https://your-custom-domain.com.
+1. Visit `https://your-custom-domain.com`. You should see the contents of your _index.html_. 
+2. Visit `https://www.your-custom-domain.com`. You should be redirected to `https://your-custom-domain.com`.
+3. Visit `http://your-custom-domain.com`. You should be redirected to `https://your-custom-domain.com`.
+4. Visit `http://www.your-custom-domain.com`. You should be redirected to `https://your-custom-domain.com`.
