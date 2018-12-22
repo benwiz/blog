@@ -15,7 +15,7 @@ In this guide I will explain how to deploy a website to GitHub pages forcing HTT
 
 ## Step 1: Create GitHub repo and turn on GitHub Pages
 
-1. If it does not exist yet, create a repository using the naming pattern `your-github-username.github.io`. Since my username is _benwiz_ my repository is called [`benwiz.github.io`](https://github.com/benwiz/benwiz.github.io)
+1. If it does not exist yet, create a repository using the naming pattern `your-github-username.github.io`. Since my username is _benwiz_ my repository is called [`benwiz.github.io`](https://github.com/benwiz/benwiz.github.io).
 2. Click the _Settings_ tab and scroll down the _GitHub Pages_ section
 3. From the _Source_ dropdown select _master branch_
 4. Click _Save_
