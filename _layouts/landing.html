@@ -35,6 +35,7 @@ layout: default
             <span class="archive-list-post-date">
               <time>| {{ post.date | date_to_string }}</time>
             </span>
+
             {%- comment -%} Tags {%- endcomment -%}
             {%- comment -%}
             <br>
@@ -49,6 +50,11 @@ layout: default
             {%- endcomment -%}
         </a>
       </div>
+
+      {% if forloop.last == false %}
+        <hr>
+      {% endif %}
+
     {% endfor %}
   {% endif %}
   </div>
