@@ -59,7 +59,7 @@ Visit http://your-github-username.github.io and https://your-github-username.git
 5. Do not enter anything into the _Name_ field
 6. Under the _Type_ dropdown, select _A - IPv4 addresses_
 7. The _Alias_ toggle should be set to _No_
-8. Enter the following four IP addresses into the _value_ text area
+8. Enter the following four IP addresses into the _value_ text area. Then click _Save Record Set_.
 
 ```text
 185.199.108.153 
@@ -68,9 +68,7 @@ Visit http://your-github-username.github.io and https://your-github-username.git
 185.199.111.153
 ```
 
-9. Click _Save Record Set_
-
-![benwiz.io A-record](images/benwiz.io.png)
+![benwiz.io A-record](../../../../images/benwiz.io.png)
 
 10. Click _Create Record Set_, again
 11. Into the _Name_ field, enter `www`
@@ -79,7 +77,7 @@ Visit http://your-github-username.github.io and https://your-github-username.git
 14. In the _Alias Target_ field, select the apex domain we previously set up. For me this is _benwiz.io_.
 15. Click _Save Record Set_, again
 
-![www.benwiz.io A-record](images/www.benwiz.io.png)
+![www.benwiz.io A-record](../../../../images/www.benwiz.io.png)
 
 ## Step 5: Configure GitHub to serve over your custom domain
 
