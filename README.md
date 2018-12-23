@@ -16,9 +16,7 @@ git clone -b gh-pages `git config remote.origin.url` _site
 
 ## To Do
 
+- Add a flag to `post` for `publish: true | false`
 - Build a filter search bar on landing page
-
 - Only include google analytics if deployed to production
-- Set url based on development or production
-
 - Build my own comment system using S3
