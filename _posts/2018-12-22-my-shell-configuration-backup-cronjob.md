@@ -4,6 +4,7 @@ title: My cronjob backup system for my bash configuration files
 date: 2018-12-22
 tags: [bash, shell]
 ads: true
+permalink: /cronjob-backups-for-bash-configs/
 ---
 I use three files to configure my bash shell: `.bash_profile`, `.bashrc`, and `.bash_alias`. I occasionally change these files but rarely remember to record the changes in [my backup gist](https://gist.github.com/benwiz/69270080eeeec2214e74369c32aaed7a). So I decided to make a cronjob that would automatically back up these three files.
 
