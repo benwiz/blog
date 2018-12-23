@@ -15,8 +15,6 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
   {% seo %}
 
-  {%- comment -%} Checking the URL is probably hacky. Should probably use an env config. {%- endcomment -%}
-  {{ site.url }}
   {% include google-analytics.html %}
 
   {% if page.ads %}
