@@ -6,14 +6,15 @@ tags: [spotify, api]
 ads: true
 permalink: /create-spotify-refresh-token/
 ---
+In my [wwoz_to_spotify](https://github.com/benwiz/wwoz_to_spotify) project I have a long running cronjob that needs to update a Spotify playlist. Since the job runs in the background I needed a way to avoid the Spotify login pop-up during the authorization flow. The solution is to manually generate a Spotify refresh token then use that to create an access token when needed.
 
 ## Step 1: Get your Spotify `client_id` and `client_secret`
 
-Visit your [Spotify developers dashboard](https://developer.spotify.com/dashboard/applications) and select or create your app. Note down your _Client ID_, _Client Secret_, and _Redirect URI_ in a convenient location to use in Step 2.
+Visit your [Spotify developers dashboard](https://developer.spotify.com/dashboard/applications) then select or create your app. Note down your _Client ID_, _Client Secret_, and _Redirect URI_ in a convenient location to use in Step 2.
 
 ## Step 2: Get your access code
 
-Visit the following URL after replacing `$CLIENT_ID`, `$SCOPE`, and `$REDIRECT_URI` with the information you noted dwn in Step 1. Make sure the `$REDIRECT_URI` is URL encoded.
+Visit the following URL after replacing `$CLIENT_ID`, `$SCOPE`, and `$REDIRECT_URI` with the information you noted in Step 1. Make sure the `$REDIRECT_URI` is URL encoded.
 
 ```text
 https://accounts.spotify.com/authorize?response_type=code&client_id=$CLIENT_ID&scope=$SCOPE&redirect_uri=$REDIRECT_URI
