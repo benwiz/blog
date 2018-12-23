@@ -29,12 +29,12 @@ layout: default
         {% else %}
           <a href="{{ post.url | prepend: site.baseurl }}">
         {% endif %}  
-            <span class="archive-list-post-title">
-              {{ post.title }}
-            </span>
-            <span class="archive-list-post-date">
-              <time>| {{ post.date | date_to_string }}</time>
-            </span>
+        <span class="archive-list-post-title">
+          {{ post.title }}
+        </span>
+        <span class="archive-list-post-date">
+          <time>| {{ post.date | date_to_string }}</time>
+        </span>
 
             {%- comment -%} Tags {%- endcomment -%}
             {%- comment -%}
@@ -51,9 +51,9 @@ layout: default
         </a>
       </div>
 
-      {% if forloop.last == false %}
+      {%- comment -%} {% if forloop.last == false %}
         <hr>
-      {% endif %}
+      {% endif %} {%- endcomment -%}
 
     {% endfor %}
   {% endif %}
