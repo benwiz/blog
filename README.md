@@ -10,6 +10,7 @@ git clone -b gh-pages `git config remote.origin.url` _site
 
 ## Post Ideas
 
+- How to create an indefinitely usable Spotify refresh token
 - Why I chose Jekyll over WordPress or Medium
 - My architecture for music visualizers (the packet queuing method)
 
