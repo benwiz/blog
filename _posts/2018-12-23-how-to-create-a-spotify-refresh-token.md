@@ -39,7 +39,7 @@ https://benwiz.io/?code=$CODE
 Running the following CURL command will result in a JSON string that contains the refresh token, in addition to other useful data. Again, either replace or export the following variables in your shell `$CILENT_ID`, `$CLIENT_SECRET`, `$CODE`, and `$REDIRECT_URI`.
 
 ```sh
-curl -d client_id=$CLIENT_ID -d client_secret=d1059e50af7649b8ae1b897ba0863aee -d grant_type=authorization_code -d code=$CODE -d redirect_uri=$REDIRECT_URI https://accounts.spotify.com/api/token
+curl -d client_id=$CLIENT_ID -d client_secret=$CLIENT_SECRET -d grant_type=authorization_code -d code=$CODE -d redirect_uri=$REDIRECT_URI https://accounts.spotify.com/api/token
 ```
 
 The result will be a JSON string similar to the following. Take the `refresh_token` and save that in a safe, private place. This token will last for a very long time and can be used to generate a fresh `access_token` whenever it is needed.
