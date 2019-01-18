@@ -2,10 +2,29 @@
 
 I took the theme [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus) and removed many features and added a couple of my own to end up with a much lighter weight result.
 
-## Prepare `_site` for deploy
+## How to run locally
+
+Install jekyll and bundler
 
 ```sh
-git clone -b gh-pages `git config remote.origin.url` _site
+gem install jekyll bundler
+bundle install
+```
+
+Run the server
+
+```sh
+bundle exec jekyll serve
+```
+
+## How to create a new post
+
+I have not yet completed the feature in `Rakefile`. For now, manually create a new file in `_posts/`.
+
+## How to deploy
+
+```sh
+./deploy.sh
 ```
 
 ## Post Ideas
@@ -16,7 +35,10 @@ git clone -b gh-pages `git config remote.origin.url` _site
 
 ## To Do
 
+- Cusomize and use the Rakefile
 - Add a flag to `post` for `publish: true | false`
 - Build a filter search bar on landing page
 - Only include google analytics if deployed to production
-- Build my own comment system using S3
+
+- Later (or never)
+  - Build my own comment system using S3
