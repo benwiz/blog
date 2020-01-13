@@ -65,5 +65,6 @@ plugins:
   - jekyll-paginate
   - jekyll-admin
   - jekyll-sitemap
+  - jekyll-org
 
 exclude:            [vendor]
