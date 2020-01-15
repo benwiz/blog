@@ -19,7 +19,7 @@ bundle exec jekyll serve
 
 ## How to create a new post
 
-Create a file in `_posts/` using the format `YYYY-MM-DD-{title}.{org|md}`
+Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
 
 ## How to deploy
 
