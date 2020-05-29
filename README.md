@@ -1,5 +1,11 @@
 # Blog
 
+## What
+
+My blog. But more of a place for documentation.
+
+## How
+
 I took the theme [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus) and removed many features and added a couple of my own to end up with a much lighter weight result.
 
 ## How to run locally
@@ -35,6 +41,7 @@ Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
 
 ## To Do
 
+- Living post with links emacs, stumpwm, and bash configs.
 - Cusomize use the Rakefile to start a post template
 - Add a flag to `post` for `publish: true | false`
 - Build a filter search bar on landing page
