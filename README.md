@@ -1,10 +1,16 @@
 # Blog
 
+## What
+
+My blog. But more of a place for documentation.
+
+## How
+
 I took the theme [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus) and removed many features and added a couple of my own to end up with a much lighter weight result.
 
 ## How to run locally
 
-Install jekyll and bundler
+Install jekyll and bundler with gem
 
 ```sh
 gem install jekyll bundler
@@ -19,7 +25,7 @@ bundle exec jekyll serve
 
 ## How to create a new post
 
-I have not yet completed the feature in `Rakefile`. For now, manually create a new file in `_posts/`.
+Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
 
 ## How to deploy
 
@@ -35,10 +41,8 @@ I have not yet completed the feature in `Rakefile`. For now, manually create a n
 
 ## To Do
 
-- Cusomize and use the Rakefile
+- Living post with links emacs, stumpwm, and bash configs.
+- Cusomize use the Rakefile to start a post template
 - Add a flag to `post` for `publish: true | false`
 - Build a filter search bar on landing page
 - Only include google analytics if deployed to production
-
-- Later (or never)
-  - Build my own comment system using S3
