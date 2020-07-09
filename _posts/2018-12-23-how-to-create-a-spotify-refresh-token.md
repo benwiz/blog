@@ -6,7 +6,9 @@ tags: [spotify, api]
 ads: true
 permalink: /create-spotify-refresh-token/
 ---
-In my [wwoz_to_spotify](https://github.com/benwiz/wwoz_to_spotify) project I have a long running cronjob that needs to update a Spotify playlist. Since the job runs in the background I needed a way to avoid the Spotify login pop-up during the authorization flow. The solution is to manually generate a Spotify refresh token then use that to create an access token when needed.
+In this guide I will explain how to manually generate a Spotify refresh token then use that to programmatically create an access token when needed.
+
+My use case was for my [wwoz_to_spotify](https://github.com/benwiz/wwoz_to_spotify) project in which I have a long running cronjob that needs to update a Spotify playlist. Since the job runs in the background I needed a way to avoid the Spotify login pop-up during the authorization flow. The solution is to manually generate a Spotify refresh token then use that to create an access token when needed.
 
 ## Step 1: Get your Spotify `client_id` and `client_secret`
 
