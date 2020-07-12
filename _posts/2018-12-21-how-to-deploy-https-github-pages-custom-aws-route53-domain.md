@@ -38,7 +38,7 @@ echo "Hello GitHub Pages!" > index.html
 3. Looking forward, we will need to have a file named _CNAME_ that contains a single row: your custom domain. My _CNAME_ file has the following contents.
 
 ```text
-benwiz.io
+benwiz.com
 ```
 
 4. Push the files to GitHub
@@ -75,7 +75,7 @@ Visit http://your-github-username.github.io and https://your-github-username.git
 11. Into the _Name_ field, enter `www`
 12. Under the _Type_ dropdown, select _A - IPv4 addresses_, again
 13. The _Alias_ toggle should be set to _Yes_, unlike before
-14. In the _Alias Target_ field, select the apex domain we previously set up. For me this is _benwiz.io_.
+14. In the _Alias Target_ field, select the apex domain we previously set up. For me this is _benwiz.com_.
 15. Click _Save Record Set_, again
 
 ![www.benwiz.io A-record](../../../../images/www.benwiz.io.png)
