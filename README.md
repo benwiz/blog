@@ -42,6 +42,7 @@ Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
 
 ## To Do
 
-- Living post with links to emacs, stumpwm, and bash configs
+- page titles are still not quite right
+- Living post with links to emacs, stumpwm, and bash configs (maybe there is a special date I can give this)
 - not sure why Rakefile separate draft and post, the code is prob not identical, so look into
 - Only include google analytics if deployed to production
