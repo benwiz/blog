@@ -25,6 +25,11 @@ bundle exec jekyll serve
 
 Do stuff with `rake --tasks` or look at Rakefile
 
+```sh
+rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]]
+rake draft title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]]
+```
+
 ## How to create a new post
 
 Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
