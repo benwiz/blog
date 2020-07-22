@@ -2,7 +2,7 @@
 layout: post
 title: How to create a Spotify refresh token the easy way
 date: 2018-12-23
-tags: [spotify, api]
+tags: [docs]
 permalink: /create-spotify-refresh-token/
 ---
 In this guide I will explain how to manually generate a Spotify refresh token then use that to programmatically create an access token when needed.

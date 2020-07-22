@@ -20,7 +20,7 @@ bundle install
 Run the server
 
 ```sh
-bundle exec jekyll serve
+bundle exec jekyll serve --drafts
 ```
 
 Do stuff with `rake --tasks` or look at Rakefile
@@ -40,16 +40,8 @@ Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
 ./deploy.sh
 ```
 
-## Post Ideas
-
-- How to create an indefinitely usable Spotify refresh token
-- Why I chose Jekyll over WordPress or Medium
-- My architecture for music visualizers (the packet queuing method)
-
 ## To Do
 
-- Living post with links emacs, stumpwm, and bash configs.
-- Cusomize use the Rakefile to start a post template
-- Add a flag to `post` for `publish: true | false`
-- Build a filter search bar on landing page
+- Living post with links to emacs, stumpwm, and bash configs
+- not sure why Rakefile separate draft and post, the code is prob not identical, so look into
 - Only include google analytics if deployed to production
