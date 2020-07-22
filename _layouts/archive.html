@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- odd name, but this is the list of posts -->
+
 <header class="header">
   <div class="header-title">
     <a href="{{ site.baseurl }}/">{{ site.name }}</a>
@@ -28,7 +30,7 @@ layout: default
           <a href="{{ post.link }}">
         {% else %}
           <a href="{{ post.url | prepend: site.baseurl }}">
-        {% endif %}  
+        {% endif %}
         <span class="archive-list-post-title">
           {{ post.title }}
         </span>

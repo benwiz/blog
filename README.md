@@ -23,6 +23,8 @@ Run the server
 bundle exec jekyll serve
 ```
 
+Do stuff with `rake --tasks` or look at Rakefile
+
 ## How to create a new post
 
 Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`

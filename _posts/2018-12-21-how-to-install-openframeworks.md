@@ -3,7 +3,6 @@ layout: post
 title: How to install openFrameworks on a Mac (macOS High Sierra)
 date: 2018-12-21
 tags: [openFrameworks, install, mac]
-ads: true
 permalink: /install-openframeworks-on-mac/
 ---
 This is a guide and tutorial for installing [openFrameworks](https://openframeworks.cc/), a C++ toolkit for creative coding.

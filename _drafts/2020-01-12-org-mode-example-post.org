@@ -6,8 +6,6 @@
 
 This is a blog post about Jekyll and Org mode.
 
-NOTE this filename requires a date like the md files
-
 ** org-table demo
 
    | a | b | c | d | e |
