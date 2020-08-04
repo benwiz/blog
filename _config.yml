@@ -4,20 +4,20 @@ name:               "Ben Wiz"
 author:
   github:           benwiz
   linkedin:         benwiz
-  instagram:        _benwiz
-  medium:           benwiz
+  # instagram:        _benwiz
+  # medium:           benwiz
   email:            bwisialowski@gmail.com
 
-copyright:
-  year:             2018
-  name:             Ben Wisialowski
+# copyright:
+  # year:             2018
+  # name:             Ben Wisialowski
 
 # Google-analytics
 google-analytics:
   id:               "UA-131129805-1"
 
 # URL
-url:                "https://benwiz.io"
+url:                "https://benwiz.com"
 # url:                "http://localhost:4000" # development url
 baseurl:            "/blog"
 
@@ -37,7 +37,7 @@ kramdown:
 # Navigation
 nav:
   - name:           "Home"
-    url:            "https://benwiz.io/"
+    url:            "https://benwiz.com/"
   - name:           "Tags"
     url:            "/tags"
 
