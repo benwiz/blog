@@ -1,0 +1,13 @@
+#+TITLE: DIY Guitar Pedal
+#+LAYOUT: post
+#+TAGS: audio
+#+liquid: enabled
+
+In the tutorial I will review the steps I took to build this cigar-box guitar pedal. The [[https://bela.io/][Bela]], which is a cape for a [[http://beagleboard.org/black][BeagleBone Black]], drives this pedal and is enclosed with other electronic components inside a cigar box.
+
+*** Enclosure
+
+I picked a cigar box made from ~1/4 inch pthick wood.
+
+TODO smaller image
+[[../../../../images/cigar-box-guitar.jpg]]
