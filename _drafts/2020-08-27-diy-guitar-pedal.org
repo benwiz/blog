@@ -9,5 +9,5 @@ In the tutorial I will review the steps I took to build this cigar-box guitar pe
 
 I picked a cigar box made from ~1/4 inch pthick wood.
 
-TODO smaller image
-[[../../../../images/cigar-box-guitar.jpg]]
+{% include image.html url="/blog/images/cigar-box-guitar.jpg" text="Cigar box guitar" %}
+TODO try retyping the above line
