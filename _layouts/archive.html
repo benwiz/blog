@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<!-- odd name, but this is the list of posts -->
-
 <header class="header">
   <div class="header-title">
     <a href="{{ site.baseurl }}/">{{ site.name }}</a>
@@ -37,19 +35,6 @@ layout: default
         <span class="archive-list-post-date">
           <time>| {{ post.date | date_to_string }}</time>
         </span>
-
-            {%- comment -%} Tags {%- endcomment -%}
-            {%- comment -%}
-            <br>
-            <span class="archive-list-post-tags">
-              {% for tag in post.tags %}
-                {{ tag }}
-                {% if forloop.last == false %}
-                  -
-                {% endif %}
-              {% endfor %}
-            </span>
-            {%- endcomment -%}
         </a>
       </div>
 

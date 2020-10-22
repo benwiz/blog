@@ -1,5 +1,0 @@
-#+TITLE: DIY Synthesizer
-#+LAYOUT: post
-#+TAGS: audio
-#+liquid: enabled
-

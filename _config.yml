@@ -9,12 +9,8 @@ author:
   email:            bwisialowski@gmail.com
 
 # copyright:
-  # year:             2018
-  # name:             Ben Wisialowski
-
-# Google-analytics
-google-analytics:
-  id:               "UA-131129805-1"
+#   year:             2018
+#   name:             Ben Wisialowski
 
 # URL
 url:                "https://benwiz.com"
@@ -38,8 +34,8 @@ kramdown:
 nav:
   - name:           "Home"
     url:            "https://benwiz.com/"
-  - name:           "Tags"
-    url:            "/tags"
+  # - name:           "Tags"
+  #   url:            "/tags"
 
 # Sass
 sass:

@@ -20,26 +20,15 @@ bundle install
 Run the server
 
 ```sh
-bundle exec jekyll serve --drafts
+rake preview
 ```
 
-Do stuff with `rake --tasks` or look at Rakefile
+Create a new draft or post
 
 ```sh
 rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]]
 rake draft title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]]
 ```
-
-## How to create a new post
-
-Create a file in `_posts/` using the format `YYYY-MM-DD-title.org|md`
-
-## How to deploy
-
-```sh
-./deploy.sh
-```
-
 ## To Do
 
 - page titles are still not quite right

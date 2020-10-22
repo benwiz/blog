@@ -9,7 +9,7 @@ SOURCE = "."
 CONFIG = {
   'posts' => File.join(SOURCE, "_posts"),
   'drafts' => File.join(SOURCE, "_drafts"),
-  'post_ext' => "org",
+  'post_ext' => "md", # "org",
 }
 
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]]

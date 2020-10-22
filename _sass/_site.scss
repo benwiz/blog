@@ -112,20 +112,20 @@ body {
 
   &-title {
     margin-top: 0rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 1rem;
     font-size: 2.25em;
     line-height: 1.2em;
     font-weight: 600;
   }
 
   &-date {
-    margin-bottom: .5rem;
-    color: $oc-gray-8;
+    margin-bottom: 1rem; // TODO this is ineffecitve
+    color: $oc-gray-6;
     font-size: .75rem;
     text-transform: uppercase;
   }
 
-   &-tag {
+  &-tag {
     margin-bottom: 1.5rem;
 
     ul {
@@ -380,4 +380,11 @@ body {
       margin: 4px;
     }
   }
+}
+
+/*----------
+  Additions
+  -----------*/
+.image {
+  color: gray;
 }
